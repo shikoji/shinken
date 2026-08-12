@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ceuotgx0j7goa"]
+
+[ext_resource type="PackedScene" uid="uid://dqxg0xipw5ybw" path="res://Scenes/Player/player.tscn" id="1_a4xck"]
+[ext_resource type="PackedScene" uid="uid://cr4blw3rueidc" path="res://Scenes/Enemy/enemy.tscn" id="2_ja3m3"]
+
+[node name="Tester" type="Node2D" unique_id=1003954714]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2016569965]
+zoom = Vector2(2, 2)
+
+[node name="Player" parent="." unique_id=348571090 instance=ExtResource("1_a4xck")]
+
+[node name="Enemy" parent="." unique_id=398220048 instance=ExtResource("2_ja3m3")]
+position = Vector2(132, 84)
+velocity = Vector2(10.909086, 3e-45)

@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bqbp7p1paabt3"]
+
+[ext_resource type="Texture2D" uid="uid://cvq7qpegc7ysr" path="res://Assets/DG Monsters Expansion/Skeletons/1Skeleton-Run.png" id="1_igleh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3or5l"]
+atlas = ExtResource("1_igleh")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6kvk"]
+atlas = ExtResource("1_igleh")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dy7y"]
+atlas = ExtResource("1_igleh")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tb14o"]
+atlas = ExtResource("1_igleh")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pf6ns"]
+atlas = ExtResource("1_igleh")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lq25f"]
+atlas = ExtResource("1_igleh")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjhh6"]
+atlas = ExtResource("1_igleh")
+region = Rect2(192, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lm7a5"]
+atlas = ExtResource("1_igleh")
+region = Rect2(224, 32, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3or5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6kvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dy7y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tb14o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pf6ns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lq25f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjhh6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lm7a5")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]

@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cr4blw3rueidc"]
+
+[ext_resource type="Script" uid="uid://bdr07tidtvu03" path="res://Scripts/Enemy/enemy.gd" id="1_mw074"]
+[ext_resource type="SpriteFrames" uid="uid://bopv6ljde3pd4" path="res://TRES/Animations/slime_sprites.tres" id="2_nvvbs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wynad"]
+size = Vector2(8, 8)
+
+[node name="Enemy" type="CharacterBody2D" unique_id=398220048]
+collision_layer = 4
+script = ExtResource("1_mw074")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1307632731]
+sprite_frames = ExtResource("2_nvvbs")
+animation = &"run"
+autoplay = "run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=393270201]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_wynad")

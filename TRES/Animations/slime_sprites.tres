@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bopv6ljde3pd4"]
+
+[ext_resource type="Texture2D" uid="uid://df8mucv5rk2uq" path="res://Assets/DG Monsters Expansion/Slimes Pack/Green Slime.png" id="1_p6g7i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0o8px"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1k41"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dt3wg"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sanix"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moi03"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l6erc"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xa70k"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_haja3"]
+atlas = ExtResource("1_p6g7i")
+region = Rect2(336, 0, 48, 48)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0o8px")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l1k41")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt3wg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sanix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_moi03")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l6erc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xa70k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_haja3")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 10.0
+}]
